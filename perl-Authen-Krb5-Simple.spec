@@ -10,12 +10,12 @@
 Summary:	Authen::Krb5::Simple - Basic user authentication using Kerberos 5
 Summary(pl.UTF-8):	Authen::Krb5::Simple - Autentykacja przy pomocy Kerberosa 5
 Name:		perl-Authen-Krb5-Simple
-Version:	0.42
-Release:	4
+Version:	0.43
+Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Authen/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d5edaa5b95e0d7d55b08a379b8be8996
+# Source0-md5:	209812d935d778c0a22247b5159bc0f6
 URL:		http://search.cpan.org/dist/Authen-Krb5-Simple/
 BuildRequires:	heimdal-devel
 BuildRequires:	perl-devel >= 1:5.8.0
