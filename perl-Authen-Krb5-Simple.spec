@@ -68,6 +68,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Authen/Krb5/Simple.pm
 %dir %{perl_vendorarch}/auto/Authen/Krb5
 %dir %{perl_vendorarch}/auto/Authen/Krb5/Simple
-%{perl_vendorarch}/auto/Authen/Krb5/Simple/Simple.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Authen/Krb5/Simple/Simple.so
 %{_mandir}/man3/*
