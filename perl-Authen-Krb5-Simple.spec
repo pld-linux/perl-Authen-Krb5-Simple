@@ -4,7 +4,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Authen
 %define		pnam	Krb5-Simple
 Summary:	Authen::Krb5::Simple - Basic user authentication using Kerberos 5
